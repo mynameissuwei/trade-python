@@ -48,7 +48,7 @@ for x in df:
 userId = ['SuWei','DanErShenYang','BaoChiBengGan','MaoXiaoMao','life']
 
 text1 = " 组合收益率: %.2f%% \n 组合雪球链接 %s \n 今日卖出: %s \n 今日买进: %s \n 当前持仓: %s" % (user.balance[0]['asset_balance'] / 10000,'https://xueqiu.com/P/ZH2476354',','.join(removeData),','.join(buyData),','.join(dfName))
-for item in userId:
-  send_message(text1,item)
+# for item in userId:
+#   send_message(text1,item)
 
 
